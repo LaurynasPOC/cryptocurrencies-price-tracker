@@ -78,7 +78,7 @@ npm start
 
 ### Conclusion
 
-This application serves as a comprehensive tool for tracking cryptocurrency prices over time. Contributions, suggestions, and feedback are welcome via the Github repository.
+This application serves as a comprehensive tool for tracking cryptocurrency prices over time. Suggestions, and feedback are welcome via the Github repository.
 
 ### Future Enhancements
 
