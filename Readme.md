@@ -25,7 +25,7 @@ This documentation provides an overview of the Cryptocurrency Price Tracker. The
 - **Front-end:** Developed using React.
 - **Back-end:** Built using Node.js.
 - **Design:** Crafted using styled-components
-- **Source Code:** All source code can be found on Github [Link to your repository].
+- **Source Code:** All source code can be found on Github [https://github.com/LaurynasPOC/cryptocurrencies-price-tracker.git].
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ This documentation provides an overview of the Cryptocurrency Price Tracker. The
 1. **Clone the repository**
 
 ```bash
-git clone [git://github.com/]
+git clone [https://github.com/LaurynasPOC/cryptocurrencies-price-tracker.git]
 ```
 
 2. **Navigate to the project server directory**
@@ -74,4 +74,4 @@ npm start
 - Navigate to client directory
 - Use same commands as in 4 and 5 guidelines
 
-7. Open a browser and `http://localhost:3000`
+7. Open a browser and visit `http://localhost:3000`
