@@ -69,7 +69,7 @@ npm install
 npm start
 ```
 
-6. **Run Front-end**
+6. **Run the Front-end**
 
 - Navigate to client directory
 - Use same commands as in 4 and 5 guidelines
@@ -85,3 +85,39 @@ This application serves as a comprehensive tool for tracking cryptocurrency pric
 - Implement more filtering options for the price graph.
 - Add timestamps on the x-axis of the graph.
 - Add alphabetical and price sorting of cryptocurrencies.
+
+# Setting Up Your Own MongoDB
+
+To use your own MongoDB instance, follow these steps.
+
+## 1. MongoDB Atlas
+
+- **Sing Up/Log In:** Go to [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+- **Create a Cluster:** Follow the guided UI to create a new cluster. The free tier is suitable for most small applications.
+- **Whitelist Your IP:** Under the `Security` tab, add your server IP address to the whitelist. If you're testing locally, this would be your local machine's public IP.
+- **Create a MongoDB User:** Under the `Database Access` tab, create a new MongoDB user. Assign necessary permissions and keep note of the username and password.
+- **Get your MongoDB URI:** Once the cluster is set up, click on the `CONNECT` button. Choose "Connect your application" and copy the provided connection string. It'll look something like:
+
+```bash
+mongodb+srv://<username>:<password>@clusterX.mongodb.net/<dbname>?retryWrites=true&w=majority
+```
+
+- Replace `<username>`, `<password>`, and `<dbname>` with your MongoDB username, password, and desired database name respectively.
+
+## 2. Local MongoDB Setup
+
+If you have MongoDB installed locally:
+
+1. Start the MongoDB server:
+
+```bash
+mongod
+```
+
+2. Your local MongoDB URI would typically look like:
+
+```bash
+mongodb://localhost:27017/<dbname>
+```
+
+Replace `<dbname>` with your desired database name.
